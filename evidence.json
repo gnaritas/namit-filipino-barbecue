@@ -1,0 +1,33 @@
+{
+  "card": "t_c4f9b3a8",
+  "slug": "namit-filipino-barbecue",
+  "built": "2026-11-25",
+  "claims": [
+    {"claim": "Business name Namit Filipino Barbecue; storefront at 9200 Old Annapolis Road, Columbia, MD 21045; soft opening Nov 20 2026; first brick-and-mortar after Howard-County food-truck years", "source": "hoodline.com/2026/11/namit-filipino-barbecue-trades-its-truck-for-a-storefront-in-columbia/ (fetched live 2026-11-25) + citybiz.co/article/938191/ (cited therein) + card body"},
+    {"claim": "Owners and chefs: Maria Carmel Tabligan and Paolo Peñalosa (goes by Pawie Pen); both own and operate; 'built their following one skewer at a time'", "source": "hoodline article (fetched live), attributing citybiz"},
+    {"claim": "Food truck launched 2022; regular truck ops ended October 2026", "source": "hoodline article citing citybiz"},
+    {"claim": "Menu has included sisig, lumpia, inasal, pancit and lechon; skewers of barbecued meats are the signature", "source": "hoodline article quoting Baltimore Magazine (baltimoremagazine.com); card body"},
+    {"claim": "Truck regularly ran out of menu items as demand outpaced supply", "source": "hoodline article citing The Banner (thebanner.com)"},
+    {"claim": "Move to storefront funded by loan, grant and counseling from Howard County Economic Development Authority", "source": "hoodline article citing The Banner"},
+    {"claim": "Origin Bacolod ('Halin sa Bacolod!' = From Bacolod!)", "source": "card body verified-facts (namitbbq.com owner lander copy + press 'from Bacolod'); lander re-curl 2026-11-25 shows 'Coming soon ... Our new website is on its way' teaser"},
+    {"claim": "Location near Oakland Ridge / Routes 29 & 108 / in front of Howard County Circuit Courthouse (site copy: 'just down from the Howard County Circuit Courthouse, near Routes 29 and 108')", "source": "hoodline article (exact source phrase: 'in front of the Howard County Circuit Courthouse on Bendix Road')"},
+    {"claim": "Phone (443) 774-8969", "source": "Yelp SERP snippet + local.yahoo.com/info-232640042 page grep '443) 774-8969' + mapquest.com page grep '4437748969' (3 independent aggregators, curls 2026-11-25)"},
+    {"claim": "Public contact email namitdmv@gmail.com", "source": "self-published on own Facebook Page intro https://www.facebook.com/namitFilipinobbq/ (scan 2026-11-25 23:1x; reconfirm registry row 6833)"},
+    {"claim": "Online ordering via Clover at clover.com/online-ordering/namit", "source": "card body + SERP result 'NAMIT FILIPINO BBQ - Columbia, Maryland | Online Ordering | Clover'"},
+    {"claim": "Geo 39.2353986,-76.8304298 for JSON-LD/map", "source": "ArcGIS World Geocode findAddressCandidates for '9200 Old Annapolis Road, Columbia, MD 21045' (exact Match_Addr_Type address, called 2026-11-25)"},
+    {"claim": "Social: facebook.com/namitFilipinobbq, instagram.com/namitfilipinobbq", "source": "card body verified-facts"}
+  ],
+  "omitted_unknowns": ["opening hours", "menu prices", "reservations", "delivery", "square footage/seats", "exact soft-open schedule"],
+  "no_site_evidence": {
+    "recheck": "2026-11-25 23:2x-23:4x PST dispatch re-verify",
+    "namitbbq.com": "HTTP 200 x4 (www + apex, http+https) Chrome UA 2104 B, title 'Namit Filipino Barbecue', meta description ends 'Our new website is on its way' — owner-held COMING-SOON lander, placeholder per amateurdenver/coming-soon doctrine, claim holds",
+    "namitfilipinobbq.com": "RDAP registered 2026-07-29; HTTP 503 'Construction' lander (web en construccion) — owner DIY site-in-progress",
+    "eatnamit.com": "RDAP 2026-09-03 Porkbun; 200 135 KB Next.js site = NAMIT CAFE, 3346 W Bryn Mawr Ave, North Park Chicago IL (title/meta/visible NAP prove different business, 773 phone, different owners) — third-party homonym, NOT this shop",
+    "stems": "eatnamit/thenamit/trynamit/getnamit/namitcolumbia/namitmaryland/namitmd/namitnasal/namitgrill/namitkinfolk/namitinasal/namitcolumbiabbq .com — Verisign RDAP 404 = unregistered (controls: namitbbq.com 200, namitfilipinobbq.com 200, control-nonsense 404)",
+    "serp": "brand queries: #1 namitbbq.com coming-soon lander, #2 Yelp, no own full site anywhere",
+    "gbp": "place /g/11zxkbsb65 no website field (scan 23:1x; clover = AUX per doctrine)",
+    "registry": "line 5760 has_site (title-only kill 11-25 early scan) FLIPPED by line 6833 reconfirm (body-level adjudication -> qualified, names this card). No pitch/no/optout row for namitdmv@gmail.com or namit-flavored aliases. eatnamit.com homonym NOT in registry (checked: 'eatnamit' token -> no rows)."
+  },
+  "local_gates": {"_verify": "PASS 0 fails x2, 8 pages, titles unique, NAP identical, max page 20.2 KB, no_third_party_js true, jsonld_valid true, cta_above_fold true, img_alt true, identity_clean true", "og": "make_og.py guards PASS, 50549 B"},
+  "render_sweep": {}
+}

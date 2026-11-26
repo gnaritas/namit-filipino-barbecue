@@ -1,0 +1,13 @@
+{
+  "name": "namit-filipino-barbecue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Namit Filipino Barbecue - Bacolod-style Filipino barbecue, 9200 Old Annapolis Rd, Columbia MD. Static template-v2 site (6 pages + 404/thanks), zero JS.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
