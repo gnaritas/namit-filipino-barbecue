@@ -10,8 +10,8 @@
   --maxw:1100px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{background:var(--char);color:var(--cream);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth;overflow-x:hidden;overflow-x:clip}
+body{background:var(--char);color:var(--cream);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;overflow-x:clip}
 address{font-style:normal}
 a{color:var(--ember-hi)}
 a:hover{color:#fff}
