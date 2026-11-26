@@ -59,6 +59,7 @@ def head(title, desc, path):
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site">
+<div class="sitenav">
   <a class="brand" href="/">{BRAND_SHORT}<span>Filipino Barbecue · Columbia, MD</span></a>
   <input type="checkbox" id="navtoggle" class="navtoggle" aria-label="Toggle menu">
   <label for="navtoggle" class="navbtn" aria-hidden="true"><i></i></label>
@@ -69,6 +70,7 @@ def head(title, desc, path):
     <a href="/contact">Contact</a>
     <a class="btn btn-sm" href="{CLOVER}">Order online</a>
   </nav>
+</div>
 </header>
 <main id="main">
 '''
